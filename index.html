@@ -23,9 +23,12 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                primary: 'rgb(171, 239, 95)',
+                
               },
               fontFamily:{
                 manrope:'Manrope',
+
               },
               backgroundImage:{
                 
@@ -37,6 +40,55 @@
 
 </head>
 <body>
-    
+    <!-- Header start here -->
+     <header class=" bg-gradient-to-t from-slate-50 to-slate-100 ">
+
+        <!-- navbar  -->
+        <nav class="max-w-screen-xl mx-auto ">
+          
+            <div class="navbar px-1 py-3">
+                <div class="navbar-start md:gap-3 gap-1">
+                  <a href=""><i class="fa-solid fa-arrow-right-long -rotate-45 bg-primary p-1 rounded-full"></i></a>
+                  <a class="font-extrabold text-3xl" href="">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                      <li ><a class="text-lg font-semibold">Home</a></li>
+                      <li ><a class="text-lg ">Services</a></li>
+                      <li ><a class="text-lg ">Portfolio</a></li>
+                      <li ><a class="text-lg ">Blogs</a></li>
+                      <li ><a class="text-lg ">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end gap-2">
+                    <div class="flex items-center text-lg md:gap-5 gap-2 ">
+                        <button class=" flex items-center font-semibold gap-3">
+                            <span><i class="fa-solid fa-magnifying-glass bg-white rounded-full p-2 hidden md:block"></i></span>
+                            <i class="fa-solid fa-cart-shopping bg-white rounded-full p-2 hidden md:block"></i>
+                        </button>
+                        <button class="bg-primary py-2  px-4 rounded-[30px] font-bold hidden md:block">
+                            <a href="">Book Consult<i class="fa-solid fa-arrow-right-long -rotate-45 bg-black text-white p-1 rounded-full ml-2"></i></a>
+                        </button>
+                    </div>
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden bg-white rounded-full ">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-5 shadow right-0 gap-4">
+                      <li ><a class="text-lg font-semibold">Home</a></li>
+                      <li ><a class="text-lg ">Services</a></li>
+                      <li ><a class="text-lg ">Portfolio</a></li>
+                      <li ><a class="text-lg ">Blogs</a></li>
+                      <li ><a class="text-lg ">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+         
+        </nav>
+
+     </header>
 </body>
 </html>
